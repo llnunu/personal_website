@@ -1,85 +1,61 @@
-body {
-  font-family: "Josefin Slab";
-  height: 100vh;
-  background-color: #222;
+﻿body {
+    background: none repeat scroll 0 0 #000000;
+}
+.first_neon {
+    background: none repeat scroll 0 0 #000000;
+    border: 1px solid;
+    border-radius: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-family:"Warnes";
+    margin: auto;
+    padding: 26px 10px;
+    text-align: center;
+    text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FF00DE, 0 0 70px #FF00DE, 0 0 80px #FF00DE, 0 0 100px #FF00DE;
+    transition: text-shadow 0.5s ease 0s;
+    width: 250px;
 }
 
-.section-project {
-  padding: 50px 0;
-  position: relative;
-  background-color: #222;
+.first_neon:hover {
+    text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF;
 }
 
-.section__title, .section__subtitle {
-  text-align: center;
-  color: white;
-  display: block;
+.second_neon {
+    border: 1px solid;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: table-cell;
+    float: left;
+    font-family:"Zeyada";
+    margin-left: 20px;
+	transition: text-shadow 0.5s ease 0s;
+    padding: 45px 25px;
+    text-align: center;
+    text-shadow: 0 0 10px #FFFFFF, 0 0 15px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #008000, 0 0 70px #008000, 0 0 80px #008000, 0 0 100px #008000;
+    width: 250px;
+}
+.second_neon:hover {
+    text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #FFFF00, 0 0 70px #FFFF00, 0 0 80px #FFFF00, 0 0 100px #FFFF00;
+}
+.third_neon {
+	 margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: table-cell;
+    float: left;
+    font-family:"Princess Sofia";
+    margin-left: 20px;
+	transition: text-shadow 0.5s ease 0s;
+	padding: 13px 25px;
+    text-align: center;
+    text-shadow: 0 0 10px #FFFFFF, 0 0 15px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF;
+    width: 250px;
 }
 
-.section__title {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0 0 20px;
-}
-
-.section__subtitle {
-  font-size: 1.2em;
-  line-height: 1.5;
-  opacity: .5;
-}
-.section__subtitle a {
-  color: inherit;
-}
-
-.project-carousel {
-  position: relative;
-  padding: 50px 0;
-}
-
-.project-strip {
-  margin: 150px 0 150px;
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
-}
-.project-strip .project {
-  cursor: pointer;
-}
-.project-strip img {
-  max-width: 100%;
-  width: 100%;
-  height: auto;
-}
-
-.project-screen {
-  width: 768px;
-  height: 451px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-.project-screen .project-detail {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 578px;
-  height: 361px;
-  margin: 32px auto 0;
-  z-index: 1;
-  background-color: #333;
-}
-.project-screen .screen-frame {
-  content: " ";
-  width: 768px;
-  height: 451px;
-  position: absolute;
-  background-image: url("../img/macbook.png");
-  background-repeat: no-repeat;
-}
-.project-screen .project {
-  margin-right: -100%;
-  float: left;
-  cursor: move;
+.third_neon:hover {
+    text-shadow: 0 0 6px #FFFFFF, 0 0 15px #FFFFFF, 0 0 25px #FFFFFF, 0 0 40px #7FFF00, 0 0 70px #7FFF00, 0 0 80px #7FFF00, 0 0 100px #7FFF00;
 }
